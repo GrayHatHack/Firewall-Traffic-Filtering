@@ -26,6 +26,7 @@ sudo ufw status verbose
 Enforcing active state filtering on the system:
 ```bash
 sudo ufw enable
-(To disable for troubleshooting purposes: sudo ufw disable)```
+```
+(To disable for troubleshooting purposes: sudo ufw disable)
 
 
