@@ -1,25 +1,21 @@
 # Firewall Rules & Network Traffic Filtering
 
 ## 📌 Objective
-To understand how firewalls regulate network traffic, control incoming/outgoing packet flows, and enforce security policies to protect systems from unauthorized access.
+To understand how firewalls regulate network traffic, control incoming and outgoing packet flows, and enforce strict security policies to protect systems from unauthorized access and network-based threats.
 
 ---
 
 ## 🛠️ Concepts & Tools Covered
-* **Concepts:** Packet Filtering, Stateful Inspection, Inbound/Outbound Rules, Default Deny Policy.
-* **Tools Overview:** Utilizing Linux firewall utilities (such as `iptables` or `ufw`) to inspect status and manage rule sets.
+* **Core Concepts:** Packet Filtering, Stateful Inspection, Inbound/Outbound Traffic Control, Default Deny Policy.
+* **Tool Used:** UFW (Uncomplicated Firewall) on Linux/Ubuntu/Kali environments.
 
 ---
 
-## 📋 Key Steps & Analysis
-1. **Firewall Status Check:**
-   * Inspecting active firewall configurations and verifying default traffic policies.
-2. **Rule Formulation:**
-   * Understanding how rules are structured to allow or block specific ports, protocols, or IP addresses.
-3. **Traffic Enforcement:**
-   * Testing rule application to ensure secure network boundaries are maintained.
+## ⚙️ Practical Implementation & Commands
 
----
+In this lab, we explore how security administrators interact with firewalls to secure network interfaces. Below are the fundamental operations performed:
 
-## 🚀 Key Takeaway
-Learned that proper firewall configuration is a critical line of defense, acting as a gatekeeper that controls exposure and minimizes attack surfaces.
+### 1. Check Firewall Status & Rules
+To inspect whether the firewall is active and view current security rules (including default policies):
+```bash
+sudo ufw status verbose
