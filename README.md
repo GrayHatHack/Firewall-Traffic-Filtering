@@ -55,8 +55,7 @@ sudo ufw delete allow 22/tcp
 ---
 
 ## 📸 Lab Execution Screenshot
-![UFW Status Output](Screenshot-2026-10-01-163759.png)
-*(Note: Agar file ka naam alag ho, toh bracket ke andar wahi exact naam likhein jo upload hone ke baad dikh raha hai)*
+![UFW Status Output](Screenshot%202026-10-01%20163759.png)
 
 ## 🚀 Key Takeaway
 Learned that Proper firewall configuration acts as the first line of defense in network security. Implementing a "Default Deny" policy ensures that only authorized, necessary traffic is allowed into the system, drastically minimizing the attack surface.    
