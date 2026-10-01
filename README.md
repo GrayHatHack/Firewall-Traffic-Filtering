@@ -29,4 +29,12 @@ sudo ufw enable
 ```
 (To disable for troubleshooting purposes: sudo ufw disable)
 
+### **3. Setting Up Traffic Filtering Rules**
+* **Allowing Specific Services/Ports:** 
+  To permit incoming traffic on specific ports (e.g., SSH port 22 or Web traffic port 80):
+  ```bash
+  sudo ufw allow 22/tcp
+  sudo ufw allow 80/tcp
+
+  
 
