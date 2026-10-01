@@ -19,3 +19,6 @@ In this lab, we explore how security administrators interact with firewalls to s
 To inspect whether the firewall is active and view current security rules (including default policies):
 ```bash
 sudo ufw status verbose
+
+### 2. Enable or Disable the Firewall
+Enforcing active state filtering on the system:
