@@ -35,6 +35,25 @@ sudo ufw enable
   ```bash
   sudo ufw allow 22/tcp
   sudo ufw allow 80/tcp
+  ```
+* **Blocking Unauthorized Ports:**
+  To restrict exposure on vulnerable or unused ports:
+  ```bash
+  sudo ufw deny 8080
+  ```
+* **Blocking Specific IP Addresses:**
+  To prevent malicious or suspicious hosts from interacting with the system:
+  ```bash
+  sudo ufw deny from 192.168.1.100
+  ```
 
+### **4. Managing and Deleting Rules**
+If a rule is no longer required or was misconfigured, it can be removed safely:
+```Bash
+sudo ufw delete allow 22/tcp
+```
+
+## 🚀 Key Takeaway
+Learned that Proper firewall configuration acts as the first line of defense in network security. Implementing a "Default Deny" policy ensures that only authorized, necessary traffic is allowed into the system, drastically minimizing the attack surface.    
   
 
