@@ -1,4 +1,4 @@
- #Firewall Rules & Network Traffic Filtering
+# Firewall Rules & Network Traffic Filtering
 
 ## 📌 Objective
 To understand how firewalls regulate network traffic, control incoming and outgoing packet flows, and enforce strict security policies to protect systems from unauthorized access and network-based threats.
